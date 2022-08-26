@@ -1,0 +1,6 @@
+def prime (n):
+    for i in range(3, n):
+        if (n%i) == 0:
+            return True
+value = prime(9)
+print(value)
